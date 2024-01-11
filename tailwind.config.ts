@@ -1,20 +1,26 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
+    theme: {
+        extend: {
+            colors: {
+                bgcolor: {
+                    DEFAULT: "#080808",
+                    primary: "#1d1d1d",
+                    secondary: "#2b2b2b",
+                },
+                accent: "#2264ba",
+            },
+            dropShadow: {
+                glow: ["0 0px 20px rgba(255 ,255, 255, 1)", "0 0px 65px rgba(255, 255, 255, 0.7)"],
+                glowSmall: ["0 0px 10px rgba(34, 100, 186, 1)", "0 0px 20px rgba(34, 100, 186, 0.7)"],
+            },
+            backdropBlur: {
+                xs: "2px",
+            },
+        },
     },
-  },
-  plugins: [],
-}
-export default config
+    plugins: [],
+};
+export default config;
