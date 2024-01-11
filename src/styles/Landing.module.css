@@ -1,6 +1,6 @@
 .typewriter {
     width: 22ch;
-    padding: 0.3rem;
+    padding: 0.4rem;
     animation: show 2s, typing 2s steps(22) 2s, blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow-x: hidden;
