@@ -7,3 +7,15 @@
     --typewriterSpeed: 4s;
     --accent-color: #268de0;
 }
+
+[data-aos="reveal"] {
+    transition-property: transform;
+    transform-origin: bottom;
+    transform: scale(1, 0);
+}
+
+[data-aos="reveal"].aos-animate {
+    transform: scale(1, 1);
+    transform-origin: bottom;
+    transition: transform 500ms 200ms ease-in-out;
+}

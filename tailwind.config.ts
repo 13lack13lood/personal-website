@@ -22,6 +22,9 @@ const config: Config = {
             backdropBlur: {
                 xs: "2px",
             },
+            boxShadow: {
+                glow: " 0 20px 25px -10px rgb(34, 100, 186, 0.7)",
+            },
         },
     },
     plugins: [],
