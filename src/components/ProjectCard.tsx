@@ -8,7 +8,7 @@ interface Props {
 
 const ProjectCard = ({ info, index }: Props) => {
     return (
-        <div className="p-4 w-full h-full border border-accent-light rounded-3xl backdrop-blur-xs bg-transparent shadow-glow" data-aos="reveal" data-aos-delay={2 * index + 1 + "00"} id={"project" + index}>
+        <div className="p-4 w-full h-full border border-accent-light rounded-3xl backdrop-blur-xs bg-transparent shadow-glow group " data-aos="reveal" data-aos-delay={2 * index + 1 + "00"} id={"project" + index}>
             <div className="flex flex-col w-full h-full items-center justify-start p-6">
                 <div data-aos="flip-up" data-aos-delay={2 * index + 10 + "00"} className="text-7xl text-accent-light opacity-30 tracking-wider font-bold w-5/6 text-right mb-5">{`0${index + 1}`}</div>
                 <div className="flex flex-col h-full items-center">
