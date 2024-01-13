@@ -12,8 +12,6 @@ const validationSchema = yup.object({
 });
 
 const Contact = () => {
-	const form = useRef();
-
 	const [success, setSuccess] = useState(false);
 
 	const sendEmail = (values: { name: string; email: string; message: string }) => {
@@ -34,6 +32,7 @@ const Contact = () => {
 				.catch((error) => {
 					console.log("Error occured sending email");
 					console.log(error);
+					setSuccess(false);
 				});
 		}
 	};
@@ -68,8 +67,9 @@ const Contact = () => {
 						email: "",
 						message: "",
 					}}
-					onSubmit={(values) => {
+					onSubmit={(values, { resetForm }) => {
 						sendEmail(values);
+						resetForm();
 					}}
 					validationSchema={validationSchema}
 				>
@@ -134,6 +134,7 @@ const Contact = () => {
 								Send
 							</button>
 						</div>
+						{success && <div className="my-2 text-white text-xl drop-shadow-glow">Sent!</div>}
 					</Form>
 				</Formik>
 			</div>
