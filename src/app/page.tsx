@@ -3,6 +3,8 @@ import Background from "../components/Background";
 import Landing from "@/components/Landing";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Socials from "@/components/Socials";
 
 export default function Home() {
 	return (
@@ -11,6 +13,8 @@ export default function Home() {
 			<Landing />
 			<About />
 			<Projects />
+			<Contact />
+			<Socials />
 		</main>
 	);
 }
