@@ -33,7 +33,7 @@ const About = () => {
 				/>
 
 				<div data-aos="zoom-in-up" data-aos-delay="300" data-aos-anchor="#About">
-					Hi, I'm Harry Zhu and I'm a first year{" "}
+					Hi, I&#39;m Harry Zhu and I&#39;m a first year{" "}
 					<span className="text-accent-light font-semibold">Mathematics</span> student at the{" "}
 					<span className="text-accent-light font-semibold">University of Waterloo</span>.
 				</div>
@@ -57,8 +57,8 @@ const About = () => {
 					though I love learning and I constantly strive to master new technologies.
 				</div>
 				<div data-aos="zoom-in-up" data-aos-delay="600" data-aos-anchor="#About">
-					While I'm not coding, you can find me playing piano, powerlifting, or playing poker with friends or
-					at UW Poker Club.
+					While I&#39;m not coding, you can find me playing piano, powerlifting, or playing poker with friends
+					or at UW Poker Club.
 				</div>
 				<div data-aos="zoom-in-up" data-aos-delay="700" data-aos-anchor="#About">
 					Here is some of my work below:

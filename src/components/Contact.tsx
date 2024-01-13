@@ -50,7 +50,7 @@ const Contact = () => {
 						data-aos-anchor="#Contact"
 						data-aos="fade-down"
 					>
-						Let's get in touch.
+						Let&#39;s get in touch.
 					</div>
 					<div
 						className="text-xl text-white"
