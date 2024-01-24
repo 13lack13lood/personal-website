@@ -32,7 +32,7 @@ const Contact = () => {
         <AOSComponent>
             <div id="Contact" className="flex flex-wrap items-center justify-evenly w-full p-10 space-x-10 min-h-screen">
                 <div className="flex flex-col items-center justify-center space-y-16 w-1/3 backdrop-blur-xs rounded-full">
-                    <div className="text-6xl text-accent dark:text-white drop-shadow-glow w-full" data-aos-anchor="#Contact" data-aos="fade-down">
+                    <div className="text-6xl text-accent dark:text-white drop-shadow-glowAccent dark:drop-shadow-glow w-full" data-aos-anchor="#Contact" data-aos="fade-down">
                         Let&#39;s get in touch.
                     </div>
                     <div className="text-xl text-accent-light dark:text-white" data-aos-anchor="#Contact" data-aos="zoom-in-up" data-aos-delay="200">

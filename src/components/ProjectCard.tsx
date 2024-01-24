@@ -4,10 +4,6 @@ import React from "react";
 import AOSComponent from "./AOSComponent";
 import GitHubDark from "../../public/githubDark.svg";
 import GitHubLight from "../../public/githubLight.svg";
-import ExternalLinkLight from "../../public/externalLinkLight.svg";
-import ExternalLinkDark from "../../public/externalLinkDark.svg";
-import Image from "next/image";
-import ThemeSwitcher from "./ThemeSwitcher";
 import IconThemeSwitcher from "./IconThemeSwitcher";
 
 interface Props {
