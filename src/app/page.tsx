@@ -7,14 +7,14 @@ import Contact from "@/components/Contact";
 import Socials from "@/components/Socials";
 
 export default function Home() {
-	return (
-		<main className="flex flex-col bg-bgcolor items-center justify-center min-w-fit w-full h-full">
-			<Background />
-			<Landing />
-			<About />
-			<Projects />
-			<Contact />
-			<Socials />
-		</main>
-	);
+    return (
+        <div className="flex flex-col bg-white dark:bg-bgcolor items-center justify-center min-w-fit w-full h-full">
+            <Background />
+            <Landing />
+            <About />
+            <Projects />
+            <Contact />
+            <Socials />
+        </div>
+    );
 }

@@ -3,31 +3,35 @@
 @tailwind utilities;
 
 :root {
-	--bg-color: #080808;
-	--typewriterSpeed: 4s;
-	--accent-color: #268de0;
+    --bg-color: #080808;
+    --typewriterSpeed: 4s;
+    --accent-color: #268de0;
+}
+
+body * {
+    @apply transition-colors duration-500;
 }
 
 [data-aos="reveal"] {
-	transition-property: transform;
-	transform-origin: bottom;
-	transform: scale(1, 0);
+    transition-property: transform;
+    transform-origin: bottom;
+    transform: scale(1, 0);
 }
 
 [data-aos="reveal"].aos-animate {
-	transform: scale(1, 1);
-	transform-origin: bottom;
-	transition: transform 500ms 200ms ease-in-out;
+    transform: scale(1, 1);
+    transform-origin: bottom;
+    transition: transform 500ms 200ms ease-in-out;
 }
 
 [data-aos="reveal-right"] {
-	transition-property: transform;
-	transform-origin: right;
-	transform: scale(0, 1);
+    transition-property: transform;
+    transform-origin: right;
+    transform: scale(0, 1);
 }
 
 [data-aos="reveal-right"].aos-animate {
-	transform: scale(1, 1);
-	transform-origin: right;
-	transition: transform 500ms 200ms ease-in-out;
+    transform: scale(1, 1);
+    transform-origin: right;
+    transition: transform 500ms 200ms ease-in-out;
 }
