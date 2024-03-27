@@ -13,6 +13,20 @@ const ProjectDetails: { title: string; desciption: string; technologies: string[
 		github: "https://github.com/13lack13lood/FinTrack",
 	},
 	{
+		title: "StockNewsSentiment",
+		desciption:
+			"A natural language processing model to analyze the sentiment of financial text with over 88% accuracy powered by an LSTM recurrent neural network trained on almost 50,000 unique financial headlines.",
+		technologies: ["Python", "TensorFlow", "Sklearn", "Pandas", "Numpy", "BeautifulSoup"],
+		github: "https://github.com/13lack13lood/StockNewsSentiment",
+	},
+	{
+		title: "Financial Portfolio Optimizer",
+		desciption:
+			"A Quantitative Financial model in Java, utilizing Machine Learning through a genetic algorithm and applying statistical modeling to optimize investment portfolios, simultaneously maximizing returns while minimizing risk.",
+		technologies: ["Java", "TypeScript", "Spring Boot", "Docker", "AWS", "Next.js"],
+		github: "https://github.com/13lack13lood/Financial-Portfolio-Optimizer",
+	},
+	{
 		title: "Hands-on Fluency",
 		desciption:
 			"A sign language learning platform as a web application, during the NewHacks hackathon, that teaches and quizzes the user on content using their webcam with OpenCV and MediaPipe.",
@@ -27,25 +41,11 @@ const ProjectDetails: { title: string; desciption: string; technologies: string[
 		github: "https://github.com/13lack13lood/AI-Music-Recommendations",
 	},
 	{
-		title: "StockNewsSentiment",
-		desciption:
-			"A natural language processing model to analyze the sentiment of financial text powered by an LSTM recurrent neural network trained on over 5000 unique financial headlines.",
-		technologies: ["Python", "TensorFlow", "Pandas", "Numpy"],
-		github: "https://github.com/13lack13lood/StockNewsSentiment",
-	},
-	{
 		title: "Clownsweeper",
 		desciption:
 			"A re-creation and spin-off of the popular 2D game, Minesweeper, made in Java using OpenGL, LWJGL, and OpenAL.",
 		technologies: ["Java", "OpenGL", "OpenAL", "LWJGL"],
 		github: "https://github.com/13lack13lood/Clownsweeper",
-	},
-	{
-		title: "Weather App",
-		desciption:
-			"A clean and sleek weather app designed with React featuring current weather and forcast as well as supporting city search.",
-		technologies: ["TypeScript", "React"],
-		github: "https://github.com/13lack13lood/react-weather-app",
 	},
 ];
 
