@@ -33,15 +33,14 @@ const About = () => {
 				/>
 
 				<div data-aos="zoom-in-up" data-aos-delay="300" data-aos-anchor="#About">
-					Hi, I&#39;m Harry Zhu and I&#39;m a first year{" "}
+					Hi, I&#39;m Harry Zhu and I&#39;m a second year{" "}
 					<span className="text-accent-light font-semibold">Mathematics</span> student at the{" "}
 					<span className="text-accent-light font-semibold">University of Waterloo</span>.
 				</div>
 				<div data-aos="zoom-in-up" data-aos-delay="500" data-aos-anchor="#About">
-					In my current school term, I am taking 6 courses: Calculus 2 (MATH 138), Linear Algebra 1 (MATH
-					136), Elementary Algorithm Design and Data Abstraction (CS 136), Tools and Techniques for Software
-					Development (CS 136L), Fundamentals of Music Theory (MUSIC 111), and I am fast-tracking Probability
-					(STAT 230).
+					In my current school term, I am taking 6 courses: Object-Oriented Software Development (CS 246),
+					Introduction to Optimization (CO 250), Statistics (STAT 231), Introduction to Combinatorics (MATH
+					239), Linear Algebra 2 (MATH 235), and Classical Mythology (CLAS 104).
 				</div>
 				<div data-aos="zoom-in-up" data-aos-delay="700" data-aos-anchor="#About">
 					I am super passionate about{" "}
@@ -52,15 +51,24 @@ const About = () => {
 					<span className="text-accent-light font-semibold">TypeScript, JavaScript, and Python</span> with
 					strong competencies in&nbsp;
 					<span className="text-accent-light font-semibold">
-						Next.js, React, Flask, Express.js, TensorFlow, OpenCV, and Pandas
+						Next.js, React, .NET, Blazor, Flask, TensorFlow, and Pandas
 					</span>{" "}
 					though I love learning and I constantly strive to master new technologies.
 				</div>
-				<div data-aos="zoom-in-up" data-aos-delay="600" data-aos-anchor="#About">
+				<div data-aos="zoom-in-up" data-aos-delay="900" data-aos-anchor="#About">
+					Formerly, I was a<span className="text-accent-light font-semibold">Full-stack Developer</span> at{" "}
+					<span className="text-accent-light font-semibold">BTNX</span>, in charge of leveraging a versatile
+					tech stack, consisting of{" "}
+					<span className="text-accent-light font-semibold">
+						React, TypeScript, JavaScript, C#, .NET, and SQL Server
+					</span>
+					.
+				</div>
+				<div data-aos="zoom-in-up" data-aos-delay="1100" data-aos-anchor="#About">
 					While I&#39;m not coding, you can find me playing piano, powerlifting, or playing poker with friends
 					or at UW Poker Club.
 				</div>
-				<div data-aos="zoom-in-up" data-aos-delay="700" data-aos-anchor="#About">
+				<div data-aos="zoom-in-up" data-aos-delay="1300" data-aos-anchor="#About">
 					Here is some of my work below:
 				</div>
 			</div>
