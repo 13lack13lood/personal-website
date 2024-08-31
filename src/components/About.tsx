@@ -34,7 +34,7 @@ const About = () => {
 
 				<div data-aos="zoom-in-up" data-aos-delay="300" data-aos-anchor="#About">
 					Hi, I&#39;m Harry Zhu and I&#39;m a second year{" "}
-					<span className="text-accent-light font-semibold">Mathematics</span> student at the{" "}
+					<span className="text-accent-light font-semibold">Data Science</span> student at the{" "}
 					<span className="text-accent-light font-semibold">University of Waterloo</span>.
 				</div>
 				<div data-aos="zoom-in-up" data-aos-delay="500" data-aos-anchor="#About">
