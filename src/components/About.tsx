@@ -56,7 +56,7 @@ const About = () => {
 					though I love learning and I constantly strive to master new technologies.
 				</div>
 				<div data-aos="zoom-in-up" data-aos-delay="900" data-aos-anchor="#About">
-					Formerly, I was a<span className="text-accent-light font-semibold">Full-stack Developer</span> at{" "}
+					Formerly, I was a <span className="text-accent-light font-semibold">Full-stack Developer</span> at{" "}
 					<span className="text-accent-light font-semibold">BTNX</span>, in charge of leveraging a versatile
 					tech stack, consisting of{" "}
 					<span className="text-accent-light font-semibold">
