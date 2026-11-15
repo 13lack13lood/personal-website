@@ -25,7 +25,7 @@
   if (themeBtn) {
     themeBtn.addEventListener("click", function () {
       var next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
-      try { localStorage.setItem(THEME_KEY, next); } catch (e) { /* private mode: still switch */ }
+      try { localStorage.setItem(THEME_KEY, next); } catch { /* private mode: still switch */ }
       if (document.startViewTransition && !mqReduce.matches) {
         var r = themeBtn.getBoundingClientRect();
         root.style.setProperty("--vt-x", Math.round(r.left + r.width / 2) + "px");
